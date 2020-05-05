@@ -1,13 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #ffcc00;
+    padding: 0px;
+    margin: 0;
+}
+h1,
+h2,
+p,
+ul,
+li {
+    font-family: sans-serif;
+}
+ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    position: static;
+    width: 100%;
+    text-align: center;
+}
+ul.header {
+    background-color: #fff;
+    padding: 0;
+}
+ul.header li a {
+    z-index: 5;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5vh;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+.content {
+    background-color: #eee;
+    padding: 20px;
+}
+.content h2 {
+    padding: 0;
+    margin: 0;
+}
+.content li {
+    margin-bottom: 10px;
+}
+.active {
+    color: #C62034;
+}
+a {
+  color: #000;
+}
+a:hover {
+   color: #C62034
+}
+a:active {
+  color: #C62034;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.heading {
+    height: 100px;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    padding-top: 10px;
+    border-bottom: 2px solid #ddd;
+    color: #1b1b1b;
 }
+
+.header-left {
+    float: right;
+    position: absolute;
+    top: 15px;
+    right: 50%;
+    margin-right: 200px;
+    width: 300px;
+}
+
+.header-right {
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-left: 200px;
+    width: 300px;
+}
+
+.nav-center {
+    top: 10px;
+    font-family: "Oswald", sans-serif;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.nav-sub {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
