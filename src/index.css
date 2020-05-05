@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 body {
-    background-color: #ffcc00;
+    background-color: #eee;
     padding: 0px;
     margin: 0;
 }
@@ -59,12 +59,13 @@ a:active {
 }
 
 .heading {
+    position: fixed;
     height: 100px;
     background-color: #ffffff;
     width: 100%;
     left: 0px;
     top: 0px;
-    z-index: -1;
+    z-index: 1;
     padding-top: 10px;
     border-bottom: 2px solid #ddd;
     color: #1b1b1b;
@@ -72,7 +73,7 @@ a:active {
 
 .header-left {
     float: right;
-    position: absolute;
+    position: fixed;
     top: 15px;
     right: 50%;
     margin-right: 200px;
@@ -81,7 +82,7 @@ a:active {
 
 .header-right {
     float: left;
-    position: absolute;
+    position: fixed;
     top: 15px;
     left: 50%;
     margin-left: 200px;
@@ -89,9 +90,9 @@ a:active {
 }
 
 .nav-center {
-    top: 10px;
+    top: 0px;
     font-family: "Oswald", sans-serif;
-    position: absolute;
+    position: fixed;
     left: 50%;
     margin-left: -150px;
     width: 300px;

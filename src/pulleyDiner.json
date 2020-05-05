@@ -1,0 +1,2524 @@
+[
+  {
+    "type": "Appetizer",
+    "subMenu": [
+      {
+        "name": "Mozarella Cheese Sticks",
+        "servingSize": "5 Sticks",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Chicken Tenders",
+        "servingSize": "3 Strips",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Poultry",
+            "css": "preference-Poultry"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Soup",
+    "subMenu": [
+      {
+        "name": "Miami Chunky Chili",
+        "servingSize": "8oz Portion",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Beef",
+            "css": "preference-Beef"
+          }
+        ]
+      },
+      {
+        "name": "Saltine Crackers",
+        "servingSize": "packet 2ct",
+        "preferences": [
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Entree",
+    "subMenu": [
+      {
+        "name": "Chocolate Chip Pancakes",
+        "servingSize": "3 Pancakes",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Blueberry Pancakes",
+        "servingSize": "3 Pancakes",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Oreo Pancakes",
+        "servingSize": "3 Pancakes",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Biscuit",
+        "servingSize": "1 Biscuit",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Ribeye Steak",
+        "servingSize": "8oz Portion",
+        "preferences": [
+          {
+            "name": "Beef",
+            "css": "preference-Beef"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          }
+        ]
+      },
+      {
+        "name": "ASC Pancakes Cinnamon Chip",
+        "servingSize": "3 Pancakes",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Buttermilk Pancakes",
+        "servingSize": "3 Pancakes",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Omelet Bar",
+    "subMenu": [
+      {
+        "name": "Swiss Cheese",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Shredded American Cheese",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Bacon Bits",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Pork",
+            "css": "preference-Pork"
+          }
+        ]
+      },
+      {
+        "name": "Fresh Sliced Mushrooms",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Diced Yellow Onions",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Diced Green & Red Peppers",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Fresh Stemless Spinach",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Fresh Diced Tomatoes",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Salsa/Picante Sauce",
+        "servingSize": "2 oz portion",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Real Sour Cream",
+        "servingSize": "2oz Portion",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Sandwich",
+    "subMenu": [
+      {
+        "name": "California Burger",
+        "servingSize": "1 Sandwich",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Beef",
+            "css": "preference-Beef"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Processed with Nuts",
+            "css": "preference-PWN"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "Fried Fish Sandwich",
+        "servingSize": "1 sandwich",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Fish",
+            "css": "preference-Fish"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Processed with Nuts",
+            "css": "preference-PWN"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "Brunch Burger",
+        "servingSize": "1 burger",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Beef",
+            "css": "preference-Beef"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Pork",
+            "css": "preference-Pork"
+          },
+          {
+            "name": "Processed with Nuts",
+            "css": "preference-PWN"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "The Q Pulled Pork Sandwich",
+        "servingSize": "1 Sandwich",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Pork",
+            "css": "preference-Pork"
+          },
+          {
+            "name": "Processed with Nuts",
+            "css": "preference-PWN"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "Grilled Cheese Sandwich",
+        "servingSize": "1 Sandwich",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "BLT Sandwich",
+        "servingSize": "1 Sandwich",
+        "preferences": [
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Pork",
+            "css": "preference-Pork"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "Grilled Chicken Sandwich",
+        "servingSize": "1 Sandwich",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Poultry",
+            "css": "preference-Poultry"
+          },
+          {
+            "name": "Processed with Nuts",
+            "css": "preference-PWN"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "Spicy Chicken Sandwich",
+        "servingSize": "1 Sandwich",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Poultry",
+            "css": "preference-Poultry"
+          },
+          {
+            "name": "Processed with Nuts",
+            "css": "preference-PWN"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "Chicken Tenders",
+        "servingSize": "4 Strips",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Poultry",
+            "css": "preference-Poultry"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "Single Hamburger",
+        "servingSize": "1 Sandwich",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Beef",
+            "css": "preference-Beef"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Processed with Nuts",
+            "css": "preference-PWN"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "Double Hamburger",
+        "servingSize": "1 Sandwich",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Beef",
+            "css": "preference-Beef"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Processed with Nuts",
+            "css": "preference-PWN"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "Traditional Cheeseburger",
+        "servingSize": "1 Sandwich",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Beef",
+            "css": "preference-Beef"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Processed with Nuts",
+            "css": "preference-PWN"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "Double Cheeseburger",
+        "servingSize": "1 Sandwich",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Beef",
+            "css": "preference-Beef"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Processed with Nuts",
+            "css": "preference-PWN"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "Vegan Burger",
+        "servingSize": "1 Sandwich",
+        "preferences": [
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Bacon",
+        "servingSize": "3 Pieces",
+        "preferences": [
+          {
+            "name": "Pork",
+            "css": "preference-Pork"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          }
+        ]
+      },
+      {
+        "name": "Bacon Cheeseburger",
+        "servingSize": "1 Sandwich",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Beef",
+            "css": "preference-Beef"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Pork",
+            "css": "preference-Pork"
+          },
+          {
+            "name": "Processed with Nuts",
+            "css": "preference-PWN"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "American Cheese",
+        "servingSize": "1 slice",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "White Bun",
+        "servingSize": "Each",
+        "preferences": [
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Sides",
+    "subMenu": [
+      {
+        "name": "California Vegetable Blend",
+        "servingSize": "4oz Side Dish",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Salt & Pepper Fries",
+        "servingSize": "4oz Side Dish",
+        "preferences": [
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Garden Side Salad",
+        "servingSize": "Side Salad",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Processed with Nuts",
+            "css": "preference-PWN"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "Fruit Cup",
+        "servingSize": "8oz Portion",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Bacon",
+        "servingSize": "3 Pieces",
+        "preferences": [
+          {
+            "name": "Pork",
+            "css": "preference-Pork"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          }
+        ]
+      },
+      {
+        "name": "Sausage Patties",
+        "servingSize": "2 Patties",
+        "preferences": [
+          {
+            "name": "Pork",
+            "css": "preference-Pork"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          }
+        ]
+      },
+      {
+        "name": "Turkey Sausage Patties",
+        "servingSize": "2 Patties",
+        "preferences": [
+          {
+            "name": "Poultry",
+            "css": "preference-Poultry"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs",
+        "servingSize": "2 Eggs",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Hash  Brown Potatoes",
+        "servingSize": "4oz Portion",
+        "preferences": [
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Plain Toast",
+        "servingSize": "2 Slices",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "Scrambled Eggs",
+        "servingSize": "3.5 ounce portion",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Sandwich Croissant",
+        "servingSize": "Croissant",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Egg, Cheese, & Meat Breakfast Sandwich",
+        "servingSize": "1 Sandwich",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Pork",
+            "css": "preference-Pork"
+          },
+          {
+            "name": "Poultry",
+            "css": "preference-Poultry"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "Whipped Butter",
+        "servingSize": ".5 ounce",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Salad Bar",
+    "subMenu": [
+      {
+        "name": "Spinach & Bacon Chef Salad",
+        "servingSize": "Entree Salad",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Pork",
+            "css": "preference-Pork"
+          }
+        ]
+      },
+      {
+        "name": "Caesar Salad",
+        "servingSize": "entree salad",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Fish",
+            "css": "preference-Fish"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Processed with Nuts",
+            "css": "preference-PWN"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "Grilled Chicken Breast",
+        "servingSize": "4oz Portion",
+        "preferences": [
+          {
+            "name": "Poultry",
+            "css": "preference-Poultry"
+          }
+        ]
+      },
+      {
+        "name": "Chicken Tenders",
+        "servingSize": "2 strips",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Poultry",
+            "css": "preference-Poultry"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Toppings",
+    "subMenu": [
+      {
+        "name": "Sliced Tomatoes",
+        "servingSize": "2 Slices",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Red Onion Slivers",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Condiments",
+    "subMenu": [
+      {
+        "name": "Yellow Mustard",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "BBQ Sauce",
+        "servingSize": "2 oz portion",
+        "preferences": [
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Texas Pete Hot Sauce",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Heinz 57 Steak Sauce",
+        "servingSize": "Topping 1 oz",
+        "preferences": [
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "A-1 Steak Sauce",
+        "servingSize": "Topping 1 oz",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Side of Marinara Sauce",
+        "servingSize": "2oz portion",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Sweet N Sour Sauce",
+        "servingSize": "2oz Portion",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Assorted Smuckers Jelly Packets",
+        "servingSize": "Packet",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Syrup",
+        "servingSize": "1oz Packet",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Sugar Free Pancake Syrup",
+        "servingSize": "1oz Packet",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Homemade Buttermilk Ranch Dressing",
+        "servingSize": "2oz Portion",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          }
+        ]
+      },
+      {
+        "name": "Blue Cheese Dressing",
+        "servingSize": "2oz Portion",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Dessert",
+    "subMenu": [
+      {
+        "name": "ASC Pancakes Cinnamon Chip",
+        "servingSize": "3 Pancakes",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Topping Twix Crushed",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Topping Kit Kat Crushed",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Rainbow Sprinkles",
+        "servingSize": "topping 1 oz",
+        "preferences": [
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Whipped Topping",
+        "servingSize": "dollop 2 oz",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Chocolate Syrup",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Caramel Sauce",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "IC Bulk Chocolate Chip Tuffys",
+        "servingSize": "8oz Portion",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Vanilla Ice Cream",
+        "servingSize": "8oz Portion4 ounces",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Vanilla Ice Cream Sugar Free",
+        "servingSize": "8oz Portion",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Strawberry Ice Cream",
+        "servingSize": "8oz Portion",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "IC Bulk Red Brick Bliss Tuffys",
+        "servingSize": "8oz Portion",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Chocolate Ice Cream",
+        "servingSize": "8oz Portion",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Cake Batter Ice Cream",
+        "servingSize": "8oz Portion",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Toasted Roll",
+        "servingSize": "1 Roll",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Three Layer Chocolate Cake",
+        "servingSize": "1/14 cake",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Lattice Apple Pie",
+        "servingSize": "1/8 pie",
+        "preferences": [
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Cream Soda Float",
+        "servingSize": "1 float",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          }
+        ]
+      },
+      {
+        "name": "Root Beer Float",
+        "servingSize": "1 float",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          }
+        ]
+      },
+      {
+        "name": "Build Your Own Milkshake",
+        "servingSize": "16oz Drink",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "Build Your Own Milkshake",
+        "servingSize": "24 oz drink",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      },
+      {
+        "name": "Crumbled OreoTopping",
+        "servingSize": "1oz Portion",
+        "preferences": [
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Brownie",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Processed with Nuts",
+            "css": "preference-PWN"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Chocolate Chip Pancakes",
+        "servingSize": "3 Pancakes",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Pretzel Pieces",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          },
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Semi-Sweet Chocolate Chips",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Edible Cookie Dough",
+        "servingSize": "Ounce",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Gluten",
+            "css": "preference-Gluten"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Wheat",
+            "css": "preference-Wheat"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Beverage",
+    "subMenu": [
+      {
+        "name": "/Bev Dole Juice Apple 100% 15.2oz",
+        "servingSize": "Bottle",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          }
+        ]
+      },
+      {
+        "name": "/Bev OS Cranberry Juice 15.2oz",
+        "servingSize": "Bottle",
+        "preferences": []
+      },
+      {
+        "name": "Teavana Chai",
+        "servingSize": "Bag",
+        "preferences": [
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "2% Milk",
+        "servingSize": "cup 8 oz",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Chocolate Milk",
+        "servingSize": "cup 8 oz",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Milk",
+            "css": "preference-Milk"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "/Bev OS Juice CranGrape 15.2oz",
+        "servingSize": "Bottle",
+        "preferences": []
+      },
+      {
+        "name": "/Bev Dole Juice Orange 100% 15.2oz",
+        "servingSize": "Bottle",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Available Upon Request",
+    "subMenu": [
+      {
+        "name": "Gluten Free White Bread",
+        "servingSize": "2 Slice Package",
+        "preferences": [
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Gluten Free Blueberry Muffin",
+        "servingSize": "1 Muffin",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Baked Straight Cut Fries",
+        "servingSize": "4oz Side Dish",
+        "preferences": [
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Enjoy Life Chocolate Chip Cookie",
+        "servingSize": "package",
+        "preferences": [
+          {
+            "name": "Vegan",
+            "css": "preference-Vegan"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      },
+      {
+        "name": "Scrambled Egg Whites",
+        "servingSize": "4.5oz Portion",
+        "preferences": [
+          {
+            "name": "Animal By-Product",
+            "css": "preference-ABP"
+          },
+          {
+            "name": "Eggs",
+            "css": "preference-Eggs"
+          },
+          {
+            "name": "Soy",
+            "css": "preference-Soy"
+          },
+          {
+            "name": "Vegetarian",
+            "css": "preference-Vegetarian"
+          }
+        ]
+      }
+    ]
+  }
+]

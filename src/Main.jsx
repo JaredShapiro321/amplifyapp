@@ -11,11 +11,21 @@ class Main extends Component {
             <HashRouter>
                 <div className="heading">
                     <ul className="header">
+                        <div className="header-left">
+                            <li className="nav-item" id="nav-home">
+                                <NavLink exact to="/">
+                                    HOME
+                                </NavLink>
+                            </li>
+                            <li className="nav-item" id="nav-menus">
+                                <NavLink to="/menus">MENUS</NavLink>
+                            </li>
+                        </div>
                         <div className="header-right">
-                            <li className="nav-item" id="nav-about">
+                            <li className="nav-item" id="nav-locations">
                                 <NavLink to="/locations">LOCATIONS</NavLink>
                             </li>
-                            <li className="nav-item" id="nav-contact">
+                            <li className="nav-item" id="nav-about">
                                 <NavLink to="/about">ABOUT</NavLink>
                             </li>
                         </div>
@@ -23,24 +33,14 @@ class Main extends Component {
                             MIAMI UNIVERSITY
                             <div className="nav-sub">CAMPUS DINING</div>
                         </div>
-                        <div className="header-left">
-                            <li className="nav-item" id="nav-menus">
-                                <NavLink exact to="/">
-                                    HOME
-                                </NavLink>
-                            </li>
-                            <li className="nav-item" id="nav-locations">
-                                <NavLink to="/menus">MENUS</NavLink>
-                            </li>
-                        </div>
                     </ul>
                 </div>
                 <div>
                     <div className="content">
                         <Route exact path="/" component={Home} />
-                        <Route path="/about" component={About} />
-                        <Route path="/locations" component={Locations} />
                         <Route path="/menus" component={Menus} />
+                        <Route path="/locations" component={Locations} />
+                        <Route path="/about" component={About} />
                     </div>
                 </div>
             </HashRouter>
