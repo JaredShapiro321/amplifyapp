@@ -4,6 +4,15 @@ import Home from "./Home";
 import About from "./About";
 import Locations from "./Locations";
 import Menus from "./Menus";
+import SideBar from "./SideBar";
+
+import { connect } from "react-redux";
+
+const mapStateToProps = state => {
+    return {
+        items: state.items
+    };
+};
 
 class Main extends Component {
     render() {
@@ -35,17 +44,18 @@ class Main extends Component {
                         </div>
                     </ul>
                 </div>
-                <div>
-                    <div className="content">
-                        <Route exact path="/" component={Home} />
-                        <Route path="/menus" component={Menus} />
-                        <Route path="/locations" component={Locations} />
-                        <Route path="/about" component={About} />
-                    </div>
+
+                <div className="content">
+                    <Route exact path="/" component={Home} />
+                    <Route path="/menus" component={Menus} />
+                    <Route path="/locations" component={Locations} />
+                    <Route path="/about" component={About} />
                 </div>
+
+                <SideBar></SideBar>
             </HashRouter>
         );
     }
 }
 
-export default Main;
+export default connect(mapStateToProps) (Main);

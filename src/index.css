@@ -60,13 +60,12 @@ a:active {
 
 .heading {
     position: fixed;
-    height: 100px;
+    height: 12vh;
     background-color: #ffffff;
     width: 100%;
     left: 0px;
     top: 0px;
     z-index: 1;
-    padding-top: 10px;
     border-bottom: 2px solid #ddd;
     color: #1b1b1b;
 }
@@ -106,3 +105,12 @@ a:active {
     font-weight: 400;
     text-align: center;
 }
+
+.sideBar {
+    position: fixed;
+    top: 12vh;
+    width: 20vw;
+    height: 88vh;
+    background-color: white;
+}
+
