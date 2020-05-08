@@ -3,79 +3,56 @@ import data from "./facilities";
 import menuData from "./pulleyDiner";
 import Card from "react-bootstrap/Card";
 import CardColumns from "react-bootstrap/CardColumns";
-import "./Menus.css"
+import "./Menus.css";
 import "./Preferences.css";
 
-    const contentStyle = {
-        paddingTop: 100,
-        paddingRight: 20,
-        paddingBottom: 0,
-        paddingLeft: 20
-    };
+let columnInnerStyle = {
+    width: 280,
+    maxHeight: 850,
+    minHeight: 350
+};
 
-    const borderStyle = {
-        borderRadius: 20,
-        fontSize: 30,
-        textAlign: "center"
-    };
-    
-    let columnStyle = {
-        width: 300,
-        maxHeight: 900,
-        minHeight: 400,
-        padding: 10
-    }
-    
-    let columnInnerStyle = {
-        width: 280,
-        maxHeight: 850,
-        minHeight: 350,
-    }
-    
-    let menuStyle = {
-        position: "absolute",
-        left: "50%",
-        marginLeft: -450,
-        width: 900,
-        color: "#1b1b1b"
-    }
+// The menus class. Shown on the menus page. Dynamically displays the menu given through user choice.
 
 class Menus extends Component {
-  render() {
-    return (
-      <div style={contentStyle}>
-        <div className="menu-Header">
-                PULLEY DINER
-            </div>
-            <div className="center">
-                <div className="center-Inner">
-                
-            </div>
-            </div>
-            <div style={{width:900}}>
-                <CardColumns style={menuStyle}>
-                    {menuData.map((menu, i) => {
-                        return (
-                            <Card className="invisible" style={columnStyle}>
-                                <div className="visible">
-                                    <h1 className="submenu-category">
-                                        {menu.type}
-                                    </h1>
-                                    <div className="overflow-auto" style={columnInnerStyle}>
-                                        {menu.subMenu.map((item, j) => {
-                                            return (
-                                                <div>
-                                                    <h2 className="submenu-item">
-                                                        {item.name}
-                                                    </h2>
-                                                    <div className="submenu-serving">
-                                                        <i>{item.servingSize}</i>
-                                                    </div>
+    render() {
+        return (
+            <div className="content">
+                    <div className="menu-Header">PULLEY DINER</div>
+                <div className="center">
+                    <div className="center-Inner"></div>
+                </div>
+                <div style={{ width: 900 }}>
+                    <CardColumns className="columns">
+                        {menuData.map((menu, i) => {
+                            return (
+                                <Card className="invisible column-Outer">
+                                    <div className="visible">
+                                        <h1 className="submenu-category">
+                                            {menu.type}
+                                        </h1>
+                                        <div
+                                            className="overflow-auto"
+                                            style={columnInnerStyle}
+                                        >
+                                            {menu.subMenu.map((item, j) => {
+                                                return (
+                                                    <div>
+                                                        <h2 className="submenu-item">
+                                                            {item.name}
+                                                        </h2>
+                                                        <div className="submenu-serving">
+                                                            <i>
+                                                                {
+                                                                    item.servingSize
+                                                                }
+                                                            </i>
+                                                        </div>
 
-                                                    <div className="submenu-prefs">
-                                                        {item.preferences.map(
-                                                            (pref, i) => {
-                                                                return (
+                                                        <div className="submenu-prefs">
+                                                            {item.preferences.map(
+                                                                (pref, i) => {
+                                                                    return (
                                                                         <div className="pref">
                                                                             <button
                                                                                 className={
@@ -87,24 +64,24 @@ class Menus extends Component {
                                                                                 }
                                                                             </button>
                                                                         </div>
-                                                                );
-                                                            }
-                                                        )}
+                                                                    );
+                                                                }
+                                                            )}
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            );
-                                        })}
+                                                );
+                                            })}
+                                        </div>
                                     </div>
-                                </div>
-                            </Card>
-                        );
-                    })}
-                </CardColumns>
-                <div className="menu_column"></div>
+                                </Card>
+                            );
+                        })}
+                    </CardColumns>
+                    <div className="menu_column"></div>
+                </div>
+                      
             </div>
-      </div>
-    );
-  }
+        );
+    }
 }
- 
 export default Menus;

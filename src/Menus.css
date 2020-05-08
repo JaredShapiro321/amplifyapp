@@ -11,6 +11,27 @@
     text-align: center;
 }
 
+.column-Outer {
+    width: 300;
+    max-height: 900;
+    min-height: 400;
+    padding: 10;
+}
+
+.column-Inner {
+    width: 280;
+    max-height: 850;
+    min-height: 350;
+}
+
+.columns {
+    position: absolute;
+    left: 50%;
+    margin-left: -450px;
+    width: 900px;
+    color: #1b1b1b;
+};
+
 .menu {
     margin: auto;
     width: 900px;
@@ -24,7 +45,7 @@
     font-family: "Oswald", sans-serif;
     font-size: 32px;
     font-weight: 700;
-    padding-top: 35px;
+    padding-top: 60px;
     padding-bottom: 35px;
     color: #1b1b1b;
 }
@@ -66,7 +87,6 @@
     font-size: 12px;
     font-weight: 400;
     width: 150px;
-    
 }
 
 .pref {

@@ -46,16 +46,16 @@ ul.header li a {
     margin-bottom: 10px;
 }
 .active {
-    color: #C62034;
+    color: #c62034;
 }
 a {
-  color: #000;
+    color: #000;
 }
 a:hover {
-   color: #C62034
+    color: #c62034;
 }
 a:active {
-  color: #C62034;
+    color: #c62034;
 }
 
 .heading {
@@ -106,4 +106,3 @@ a:active {
     font-weight: 400;
     text-align: center;
 }
-
