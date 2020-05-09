@@ -13,8 +13,8 @@ ul,
 li {
     font-family: sans-serif;
 }
-ul.header li {
-    display: inline;
+ul.header {
+    
     list-style-type: none;
     margin: 0;
     position: static;
@@ -28,10 +28,9 @@ ul.header {
 ul.header li a {
     z-index: 5;
     font-family: "Oswald", sans-serif;
-    font-size: 2.5vh;
+    font-size: 24px;
     font-weight: 500;
     text-decoration: none;
-    padding: 20px;
     display: inline-block;
 }
 .content {
@@ -49,6 +48,11 @@ ul.header li a {
     color: #c62034;
 }
 a {
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     color: #000;
 }
 a:hover {
@@ -60,7 +64,7 @@ a:active {
 
 .heading {
     position: fixed;
-    height: 12vh;
+    height: 100px;
     background-color: #ffffff;
     width: 100%;
     left: 0px;
@@ -73,19 +77,22 @@ a:active {
 .header-left {
     float: right;
     position: fixed;
-    top: 15px;
+    top: 0px;
     right: 50%;
-    margin-right: 200px;
+    margin-right: 150px;
     width: 300px;
+    height: 100px;
+    padding: 0px;
 }
 
 .header-right {
     float: left;
     position: fixed;
-    top: 15px;
+    top: 0px;
     left: 50%;
-    margin-left: 200px;
+    margin-left: 150px;
     width: 300px;
+    height: 100px;
 }
 
 .nav-center {
@@ -103,6 +110,15 @@ a:active {
 .nav-sub {
     font-size: 24px;
     font-weight: 400;
+    text-align: center;
+}
+
+.nav-item {
+    width: 120px;
+    height: 50px;
+    font-weight: 400;
+    text-align: center;
+    display: inline;
     text-align: center;
 }
 
