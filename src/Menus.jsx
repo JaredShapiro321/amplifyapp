@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import data from "./facilities";
 import menuData from "./pulleyDiner";
 import Card from "react-bootstrap/Card";
 import CardColumns from "react-bootstrap/CardColumns";
@@ -15,6 +14,11 @@ let columnInnerStyle = {
 // The menus class. Shown on the menus page. Dynamically displays the menu given through user choice.
 
 class Menus extends Component {
+    
+    constructor(props) {
+        super(props);
+    }
+    
     render() {
         return (
             <div className="content">
