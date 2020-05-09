@@ -3,12 +3,8 @@ import data from "./facilities";
 import menuData from "./pulleyDiner";
 import Card from "react-bootstrap/Card";
 import CardColumns from "react-bootstrap/CardColumns";
-import SideBar from "./SideBar.jsx";
 import "./Menus.css";
 import "./Preferences.css";
-
-import { connect } from 'react-redux'
-import { addToCart } from './actions/cartActions'
 
 let columnInnerStyle = {
     width: 280,
@@ -19,10 +15,6 @@ let columnInnerStyle = {
 // The menus class. Shown on the menus page. Dynamically displays the menu given through user choice.
 
 class Menus extends Component {
-    handleClick = id => {
-        this.props.addToCart(id);
-    };
-
     render() {
         return (
             <div className="content">
@@ -100,20 +92,5 @@ class Menus extends Component {
     }
 }
 
-const mapStateToProps = state => {
-    return {
-        items: state.items
-    };
-};
-const mapDispatchToProps = dispatch => {
-    return {
-        addToCart: id => {
-            dispatch(addToCart(id));
-        }
-    };
-};
 
-export default connect(
-    mapStateToProps,
-    mapDispatchToProps
-)(Menus);
+export default Menus;

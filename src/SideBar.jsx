@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import Cart from "./Cart";
 let menuItems = 0;
 
 class Menus extends Component {
     render() {
-        return <Cart></Cart>;
+        return <div>
+        cuck
+        </div>;
     }
 }
 export default Menus;

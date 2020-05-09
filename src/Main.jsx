@@ -6,14 +6,6 @@ import Locations from "./Locations";
 import Menus from "./Menus";
 import SideBar from "./SideBar";
 
-import { connect } from "react-redux";
-
-const mapStateToProps = state => {
-    return {
-        items: state.items
-    };
-};
-
 class Main extends Component {
     render() {
         return (
@@ -58,4 +50,4 @@ class Main extends Component {
     }
 }
 
-export default connect(mapStateToProps) (Main);
+export default Main;
