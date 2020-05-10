@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+html, 
+body {
+    height: 100%;
+}
+
 
 body {
     background-color: #eee;
@@ -35,7 +40,8 @@ ul.header li a {
 }
 .content {
     background-color: #eee;
-    padding: 20px;
+    padding: 0px;
+    height: calc(100% - 100px)
 }
 .content h2 {
     padding: 0;
@@ -140,15 +146,18 @@ a:active {
     background-color: white;
 }
 
-.facilities {
-    width: 250px;
-    margin-left: 25px;
-    margin-top: 10px
+.main {
+    height: 100%;
 }
 
-.hbmenu {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    font-size: 20px;
+.content-inner {
+    position: relative;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: left;
+    padding: 20px;
+}
+
+.centerColumn {
+
 }

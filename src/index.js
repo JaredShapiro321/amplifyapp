@@ -8,4 +8,4 @@ import "./index.css"
 
 // Base file loaded with index.html
 
-ReactDOM.render(<Main />, document.getElementById("root"));
+ReactDOM.render(<Main />, document.body);

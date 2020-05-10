@@ -11,22 +11,28 @@ let columnInnerStyle = {
     minHeight: 350
 };
 
+
+
+
 // The menus class. Shown on the menus page. Dynamically displays the menu given through user choice.
 
 class Menus extends Component {
-    
     constructor(props) {
         super(props);
+        
+        
+        
     }
     
+
     render() {
         return (
-            <div className="content">
-                    <div className="menu-Header">PULLEY DINER</div>
+            <div className="content-inner">
+                <div className="menu-Header">PULLEY DINER</div>
                 <div className="center">
                     <div className="center-Inner"></div>
                 </div>
-                <div style={{ width: 900 }}>
+                <div className="centerColumn">
                     <CardColumns className="columns">
                         {menuData.map((menu, i) => {
                             return (
@@ -95,6 +101,5 @@ class Menus extends Component {
         );
     }
 }
-
 
 export default Menus;

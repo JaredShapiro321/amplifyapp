@@ -4,7 +4,7 @@ import "./Default.css";
 class About extends Component {
     render() {
         return (
-            <div style={{ top: "120px", position: "absolute", padding: "20px"}}>
+            <div className="content-inner">
                 <h1 class="Head">ABOUT</h1>
                 <p>
                     Web application designed to help students find what food is
